@@ -210,7 +210,7 @@ __marimo__/
 
 ACE-Step/
 yue/
-ckpt/
+ckpt*
 MuMu-LLaMA/
 *output/
 tmp*/
