@@ -10,6 +10,9 @@ One of the major contribution. This contains all the code for 8 baselines and 14
 ## ddsp
 Exploration of potential timber transfer teacher models. But because of limited timbers and bad out-of-domain performance that was not used. Some effort has been made to relocate the checkpoint files.
 
+## demucs_batch-gpu
+Official Demucs repo didn't support batch processing. This is an adapted one which can scale up using batched input and distributed run. This managed to carry FMA (8k hours) source seperation on 3 nodes in 12 hours, which would otherwise take 3 days.
+
 ## clamp_encodec_cluster
 One of the major contribution. This adapted Meta's Dora framework and patched encodec training logic to support contrastive learning with Clamp model, in an effort of achieving UniTok. Dora framework is hyper-parameter-oriented, migration and adaption took a while.
 
