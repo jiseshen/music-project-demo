@@ -1,5 +1,5 @@
-# unidaw-demo
-This private repo reflects my contribution to project UniDAW by 2025/12
+# music-project-demo
+This repo reflects my contribution to an ongoing music foundation model project by 2025/12
 
 ## closed-source-probe
 This used to be an attempt of distillation and scalable evaluation of proprietary music generation. suno was really hard to automate, since the repo suno-api had been out of date, not to mention it involved Turnstile and periodic token update. My patch used to work for a while but automation was soon made impossible again by Suno.
