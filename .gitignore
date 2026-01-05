@@ -216,3 +216,5 @@ MuMu-LLaMA/
 tmp*/
 *.pt
 ckpt*/
+
+*.wav
